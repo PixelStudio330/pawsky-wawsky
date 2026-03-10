@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Pawsky Wawsky | Premium Pet Sanctuary Showcase
 
-## Getting Started
+**Pawsky Wawsky** is an exclusive, high-performance web concept designed for animal shelters and rescue organizations. Built with a unique **Documentary & Scrapbook** aesthetic, it is a showcase of high-end frontend development and emotional UI/UX design.
 
-First, run the development server:
+> [!IMPORTANT]
+> **Copyright Notice:** This project is a proprietary design and technical showcase by **Nyra**. This code is **not** open-source for public or commercial use. If you would like a custom-built website with this aesthetic and functionality, please contact me via the links below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🛒 Buy This Service
+* **Fiverr:** [Order a Custom Website from Nyra](https://www.fiverr.com/s/XLyy4b2)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📧 Get in Touch
+* **Portfolio:** [st4rligh7.vercel.app](https://st4rligh7.vercel.app/)
+* **Email:** `pixelstudioo003@gmail.com`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ The Tech Behind the Excellence
 
-## Learn More
+This project demonstrates mastery in modern web technologies, ensuring lightning-fast performance and seamless interactivity.
 
-To learn more about Next.js, take a look at the following resources:
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Features Spotlight
 
-## Deploy on Vercel
+* **Bespoke Documentary UI:** A custom-crafted "Scrapbook" layout that stands out from generic templates.
+* **Premium Animations:** Sophisticated scroll-reveal and hover effects powered by Framer Motion.
+* **Advanced Architecture:** Built on Next.js 16 (Turbopack) for industry-leading speed.
+* **Conversion Focused:** Designed with clear CTAs and intuitive navigation to drive engagement.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔗 View the Live Showcase
+See the design in action: **[pawsky-wawsky.vercel.app](https://pawsky-wawsky.vercel.app/)**
+
+---
+
+## 🎨 Creative Credits
+* **Lead Developer & Designer:** Nyra
+* **Studio:** Pixel Studio
+* **Design Philosophy:** Documentary-style storytelling mixed with cozy minimalism.
+
+---
+
+## 💼 Work With Me
+
+Love this aesthetic? I am available for hire to develop custom, high-end digital experiences for your brand or organization. **Please note that I do not grant permission to copy or redistribute this specific template.**
