@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function OurGems() {
   const pets = [
@@ -102,8 +103,7 @@ export default function OurGems() {
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: true, margin: "-150px" }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            whileHover={{ y: -10 }}
-            className="bg-white rounded-[3rem] p-10 md:p-14 shadow-2xl flex flex-col lg:flex-row items-center gap-14 border-4 border-white/50 relative"
+            className="bg-white rounded-[3rem] p-10 md:p-14 shadow-2xl flex flex-col lg:flex-row items-center gap-14 border-4 border-white/50 relative overflow-hidden"
           >
             {/* 📸 Image Side */}
             <div className="w-full lg:w-1/2 relative group">
@@ -154,13 +154,16 @@ export default function OurGems() {
                 </div>
               </div>
 
-              <motion.button
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                className="mt-12 px-10 py-4 bg-[#6D7C75] text-white rounded-full font-bold shadow-xl self-start hover:bg-[#E7C78A] hover:text-[#6D7C75] transition-all duration-300"
-              >
-                Inquire about {pet.name.split(' ')[0]} 💌
-              </motion.button>
+              {/* The Fixed Link/Button */}
+              <Link href="/contact" className="self-start mt-12">
+                <motion.button
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-10 py-4 bg-[#6D7C75] text-white rounded-full font-bold shadow-xl hover:bg-[#E7C78A] hover:text-[#6D7C75] transition-all duration-300"
+                >
+                  Inquire about {pet.name.split(' ')[0]} 💌
+                </motion.button>
+              </Link>
             </div>
           </motion.section>
         ))}

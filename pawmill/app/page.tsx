@@ -20,7 +20,7 @@ export default function Home() {
       
       {/* 🌸 Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none z-0 overflow-hidden">
-        <div className="absolute top-10 left-10 text-4xl opacity-10 animate-bounce">🐾</div>
+        {/* Removed the annoying low-opacity paw from here! */}
         <div className="absolute bottom-20 right-10 text-4xl opacity-10 animate-pulse">🌿</div>
         <div className="absolute top-1/2 left-5 text-4xl opacity-10 animate-bounce delay-700">🦴</div>
         <div className="absolute inset-0 bg-[url('/images/paper-texture.png')] bg-repeat opacity-5"></div>
@@ -96,7 +96,6 @@ export default function Home() {
               whileHover={{ y: -10 }}
               className="bg-white/80 backdrop-blur-sm rounded-[2.5rem] p-6 shadow-xl border border-white flex flex-col items-center text-center group"
             >
-              {/* Image Container */}
               <div className="relative w-full h-64 mb-6 overflow-hidden rounded-[2rem] border-4 border-[#FDF6EC]">
                 <Image
                   src={pet.img}
@@ -109,7 +108,7 @@ export default function Home() {
               <h4 className="text-2xl font-bold text-[#6D7C75] group-hover:text-[#E7C78A] transition-colors">
                 {pet.name}
               </h4>
-              <p className="text-[#8E9B94] mt-2 mb-6 text-sm italic italic px-4">
+              <p className="text-[#8E9B94] mt-2 mb-6 text-sm italic px-4">
                 "{pet.desc}"
               </p>
 
